@@ -1,0 +1,73 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+  background: #D2D6DB;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  left: 40%;
+  width: 340px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 10px rgba(82, 82, 82, 0.33);
+}
+
+.info-section {
+  padding: 24px 16px;
+}
+
+.img {
+  border-radius: 10px 10px 0px 0px;
+  height: 288px;
+  object-fit: cover;
+}
+
+.btn-interior {
+  border: 1px solid #BBF7D0;
+  background: #F0FDF4;
+  color: #15803D;
+  border-radius: 40px;
+  font-size: 14px;
+  height: 24px;
+  width: 67px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.info-heading{
+  margin: 7px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info {
+  color: #525252;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.read-more {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4338CA;
+  font-weight: 500;
+}
+.arrow {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #4338CA;
+  font-weight: 500;
+}
